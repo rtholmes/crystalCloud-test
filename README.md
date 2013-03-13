@@ -13,8 +13,7 @@ git clone -b b1 git@github.com:rtholmes/crystalCloud-test.git b1
 git clone -b b2 git@github.com:rtholmes/crystalCloud-test.git b2
 
 # try to merge the two
-cd b2
-git remote add -f b1 ../b1/
+cd b2; git remote add -f b1 ../b1/
 
 # see if b1 and b2 can be merged cleanly
 git merge b1/b1
@@ -30,7 +29,5 @@ merging a fork with a branch
 git clone git://github.com/brunyuriy/crystalCloud-test.git brun
 
 # see if b1 merges ok
-cd brun
-git remote add -f b1 ../b1/
-git merge b1/b1
+cd brun; git remote add -f b1 ../b1/; git merge b1/b1
 
