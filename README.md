@@ -26,7 +26,7 @@ git reset origin/b2 --hard
 merging a fork with a branch
 ===
 
-git clone git://github.com/brunyuriy/crystalCloud-test.git brun
+cd ..; git clone git://github.com/brunyuriy/crystalCloud-test.git brun
 
 # see if b1 merges ok
 cd brun; git remote add -f b1 ../b1/; git merge b1/b1
