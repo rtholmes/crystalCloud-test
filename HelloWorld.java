@@ -5,7 +5,7 @@ public class Foo {
 		
 		int j = 1;
 		
-		int k = 2;
+//		int k = 2;
 	}
 	
 }
